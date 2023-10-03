@@ -86,6 +86,7 @@
 .moreabout {
     font-size: 20px;
     margin-right: 20px;
+    font-family: sans-serif ;
 }
 
 .button {
@@ -107,4 +108,26 @@
 .button button:hover {
     background: white;
     color: dodgerblue;
+}
+
+/* -----contact.html----- */
+.contactform{
+font-family:  sans-serif;
+padding: 0 34px;
+padding-top: 144px;
+}
+.contactform h1{
+    text-align: center;
+}
+
+.contactform form div{
+
+    padding: 10px 0;
+    display: flex;
+   flex-direction: column;
+}
+#emailHelp{
+    font-size: 9px;
+    color: midnightblue;
+    margin: 0 5px;
 }
