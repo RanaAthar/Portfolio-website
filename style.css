@@ -94,7 +94,6 @@
 }
 
 .button button {
-
     padding: 10px;
     font-size: 20px;
     border-radius: 22px;
@@ -117,9 +116,12 @@ padding: 0 34px;
 padding-top: 144px;
 }
 .contactform h1{
-    text-align: center;
+color: #784333;
 }
 
+#phone{
+    padding-top: 0;
+}
 .contactform form div{
 
     padding: 10px 0;
@@ -131,3 +133,83 @@ padding-top: 144px;
     color: midnightblue;
     margin: 0 5px;
 }
+.form-check-input{
+    width: 18px;
+}
+
+.contactform form div input{
+    width: 20vw;
+    border-radius: 6px;
+    margin-top: 6px;
+    padding: 5px
+ }
+ #box{
+    display: flex;
+    flex-direction: row;
+ }
+
+ .form-check{
+    display: flex;
+flex-direction: row;
+ }
+ /* .form-check input{
+    padding: 117px;
+    width: 25px;
+    margin-bottom: 12px;
+} */
+#box input{
+    width: auto;
+}
+#box label{
+    padding-left: 6px;
+    padding-top: 8px;
+}
+#btn{
+    font-size: 18px;
+    border-radius: 20px;
+    padding: 7px 15px;
+    margin-top: 7px;
+    background: linear-gradient(#423234, #784333);
+    color:black;
+}
+
+ #btn:hover{
+  background: wheat;
+    color: dodgerblue;
+ }
+
+
+ /* ----blogs----- */
+ .infoblog{
+    margin: -16px;
+    font-family: sans-serif;
+    font-family: 'Fira Sans', sans-serif;
+    
+ }
+ .blogcontainer h1{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 23px;
+ }
+ .infoblog p{
+    font-family: 'Source Code Pro', monospace;
+ }
+ .infoblog h2{
+    margin-bottom: 10px;
+    line-height: 3;
+ }
+ #btn12{
+    padding: 6px;
+    font-size: 20px;
+    border-radius: 22px;
+    margin: 20px 4px;
+    color: white;
+    background: linear-gradient(#423234, #784333);
+    font-weight: bold;
+    cursor: pointer;
+   
+ }
+ #btn12:hover{
+    background: wheat;
+    color: dodgerblue;
+   
+ }

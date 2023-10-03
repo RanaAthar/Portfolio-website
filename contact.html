@@ -23,20 +23,29 @@
     <div class="contactform">
         <h1>Contact me for work / General Enquiries</h1>
         <form>
+          <div class="mb-3">
+            <label for="clientemail" class="form-label">Name</label>
+            <input type="name" class="form-control" id="clientemail" aria-describedby="emailHelp" placeholder="Enter your Name">
+          </div>
             <div class="mb-3">
               <label for="clientemail" class="form-label">Email address</label>
-              <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp">
+              <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp" placeholder="Email">
               <div id="emailHelp" class="form-text">We'll never share your email & phone with anyone else.</div>
             </div>
-            <div class="mb-3">
+            <div class="mb-3" id="phone">
               <label for="clientphone" class="form-label">Phone</label>
-              <input type="phone" class="form-control" id="clientphone">
+              <input type="phone" class="form-control" id="clientphone" placeholder="phone">
             </div>
-            <div class="mb-3 form-check">
-              <input type="checkbox" class="form-check-input" id="isclient">
+            <div class="mb-3">
+              <label for="clientemail" class="form-label">Enquiry</label>
+              <input type="Enquiry" class="form-control" id="clientemail" aria-describedby="emailHelp" placeholder="Enquiry">
+            </div>
+            <div class="mb-3 form-check" id="box">
+              <input type="checkbox" class="form-check-input" id="isclient" >
               <label class="form-check-label" for="isclient">I want you to work on a project with me</label>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+
+            <button type="submit" class="btn btn-primary" id="btn">Submit</button>
           </form>
     </div>
     </div>
