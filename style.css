@@ -54,6 +54,7 @@
     margin: 149px auto;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 .devinfo {
@@ -194,7 +195,7 @@ flex-direction: row;
     font-family: 'Source Code Pro', monospace;
  }
  .infoblog h2{
-    margin-bottom: 10px;
+    margin-bottom: -10px;
     line-height: 3;
  }
  #btn12{
@@ -212,4 +213,59 @@ flex-direction: row;
     background: wheat;
     color: dodgerblue;
    
+ }
+
+ /* ------main----  */
+ .intro h2{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 12px;
+}
+.intro p{
+     margin: 12px;
+    font-family: 'Source Code Pro', monospace;
+ }
+ .skillcontainer{
+padding: 13px;
+ }
+ .skill{
+    background-color: red;
+    width: 230px;
+    height: 5px;
+ }
+ .skillitems{
+    display: flex;
+    align-items: center;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+    
+ }
+ .hundred{
+    width: 300px;
+    background-color: green;
+    border: 2px solid black;
+ transition: all 2s;
+ }
+ .hundred:hover{
+    background-color: aqua;
+    width: 120px;
+ }
+ .eight{
+    width: 210px;
+    background-color: dodgerblue;
+    border: 2px solid black;
+ }
+ .sevent{
+    width: 120px;
+    background-color: aqua;
+    border: 2px solid black;
+ }
+ .sixth{
+    width: 150px;
+    background-color: yellow;
+    border: 2px solid black;
+ }
+ @media(max-width:1724px){
+*{
+    background-color: yellow;
+}
  }
